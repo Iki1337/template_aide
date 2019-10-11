@@ -1,0 +1,156 @@
+@charset "utf-8";
+/*BOURDEL Raphaël*/
+
+@font-face {
+	font-family: "OPR";
+	src:url(../font/OpenSans-Regular.ttf);
+}
+
+
+html{
+	margin: 0;
+	padding: 0;
+}
+
+/* Barre de navigation ----------*/
+
+.navbar-brand img{
+	max-height: 40px;
+}
+
+.nav-link{
+	font-size: 20px;
+	margin-right: 10px; 
+}
+
+#onglet1{
+	color:#D200D8;
+}
+
+#onglet1:hover{
+	color:#96009A;
+}
+
+#onglet2{
+	color:#00D811;
+}
+
+#onglet2:hover{
+	color:#00880B;
+}
+
+#onglet3{
+	color:#2896FF;
+}
+
+#onglet3:hover{
+	color:#005FE0;
+}
+
+#onglet4{
+	color:#C16117;
+}
+
+#onglet4:hover{
+	color:#9F4500;
+}
+
+/* Slider -------------------*/
+
+#carouselExampleIndicators{
+	top:65px;
+}
+
+/* Presentation index---------------*/
+
+#presentation{
+	margin-top: 70px;
+	margin-bottom: 50px;
+}
+
+#presentation .media span{
+	font-size: 4rem;
+	width: 5rem;
+	text-align: center;
+	transition: 0.5s;
+}
+
+#ico1{
+	color:#D200D8;
+}
+
+#ico1:hover{
+	color:#96009A;
+}
+
+#ico2{
+	color:#00D811
+}
+
+#ico2:hover{
+	color:#00880B;
+}
+
+#ico3{
+	color:#2896FF;
+}
+
+#ico3:hover{
+	color:#005FE0;
+}
+
+#ico4{
+	color:#C16117;
+}
+
+#ico4:hover{
+	color:#9F4500;
+}
+
+/* hr --------*/
+
+#index hr{
+	width: 85%;
+	border:none;
+	height:2px;
+	background-color:#FF2BE3;
+}
+
+/* Centrale--------------------------*/
+
+#index #centrale{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#centrale h2{
+	font-size: 35px;
+	margin-left: 120px;
+}
+
+#index #centrale h2{
+	color:#FF2BE3;	
+}
+
+#centrale p{
+	padding: 5px 50px;
+}
+
+/* Footer -------------------------------*/
+
+footer{
+	background-color:rgba(0,0,0,0.70);
+	color:#999;
+	padding: 20px 0;
+}
+
+footer a{
+	color:#999;
+	font-size: 50px;
+	transition: all 0.5s ease-in-out;
+}
+
+footer a:hover{
+	color:#fff;
+	text-decoration: none;
+}

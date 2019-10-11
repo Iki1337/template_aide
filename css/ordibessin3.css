@@ -1,0 +1,31 @@
+@charset "utf-8";
+/*BOURDEL Raphaël*/
+
+@media(max-width:512px){
+	
+	.carousel-caption h2{
+		font-size: 12px;
+	}
+	
+	.carousel-caption p{
+		font-size: 10px;
+	}
+	
+	.btncoo{
+	width: 60%;
+	}
+	
+}
+
+@media(max-width:1040px){
+	
+	.conteneur{
+		width: 80%;
+		margin-bottom: 15px;
+	}
+	
+	.btncoo{
+	width: 40%;
+	}
+	
+}

@@ -1,0 +1,19 @@
+@charset "utf-8";
+/*BOURDEL Raphaël*/
+
+/* Slider -------------------*/
+
+#carouselExampleSlidesOnly{
+	border-top:solid 4px #D200D8;
+	border-bottom:solid 4px #D200D8;
+}
+
+.carousel-caption{
+	color:#D200D8;
+}
+
+/* Centrale ----------------*/
+
+#centrale h2{
+	color:#D200D8;
+}

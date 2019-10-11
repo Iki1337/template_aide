@@ -1,0 +1,78 @@
+@charset "utf-8";
+/*BOURDEL Raphaël*/
+
+/* Slider -------------------*/
+
+#carouselExampleSlidesOnly{
+	top:65px;
+}
+
+/* Centrale ----------------*/
+
+#centrale{
+	margin-top: 90px;
+	margin-bottom: 50px;
+}
+
+/* Boutons ------------------*/
+
+#boutons{
+	text-align: center;
+	margin-bottom: 70px;
+}
+
+#boutons span{
+	font-size: 2rem;
+	vertical-align: middle;
+}
+
+#boutons h5{
+	display: inline-block;
+	font-size: 15px;
+}
+
+.conteneur{
+	display: inline-block;
+	width: 20%;
+	border-radius: 15px;
+}
+
+#boutons span, #boutons h5{
+	color: white;
+}
+
+.conteneur{
+	transition: 0.5s;
+}
+
+.c1{
+	background-color:#D200D8;
+}
+
+.c1:hover{
+	background-color:#96009A;
+}
+
+.c2{
+	background-color:#00D811;
+}
+
+.c2:hover{
+	background-color:#00880B;
+}
+
+.c3{
+	background-color:#2896FF;
+}
+
+.c3:hover{
+	background-color:#005FE0;
+}
+
+.c4{
+	background-color:#C16117;
+}
+
+.c4:hover{
+	background-color:#9F4500;
+}
